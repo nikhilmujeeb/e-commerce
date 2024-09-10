@@ -1,9 +1,7 @@
-
 .order-placed-container {
     position: relative;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #f8f9fa; 
@@ -12,7 +10,7 @@
 }
 
 .popup {
-    position: relative; 
+    position: absolute;
     background-color: #28a745; 
     color: #ffffff; 
     padding: 40px;
@@ -23,6 +21,8 @@
     font-weight: bold;
     animation: popupAnimation 1s ease-in-out, beating 1.5s infinite; 
     margin-bottom: 30px;
+    left: 100%;
+    transform: translateX(-100%);
 }
 
 .message {
