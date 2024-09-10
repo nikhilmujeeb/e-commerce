@@ -34,9 +34,9 @@
   margin-bottom: 20px;
   font-weight: bold;
   text-shadow: 
-    3px 3px 5px rgba(0, 0, 0, 0.7), /* First shadow, heavier and darker */
-    5px 5px 10px rgba(0, 0, 0, 0.5), /* Second shadow, slightly lighter and more spread out */
-    7px 7px 15px rgba(0, 0, 0, 0.3); /* Third shadow, lighter and more spread out */
+    3px 3px 5px rgba(0, 0, 0, 0.7), 
+    5px 5px 10px rgba(0, 0, 0, 0.5), 
+    7px 7px 15px rgba(0, 0, 0, 0.3);
 }
 
 .hero-description {
@@ -46,9 +46,9 @@
   line-height: 1.6;
   font-family: 'Times New Roman', Times, serif;
   text-shadow: 
-    2px 2px 4px rgba(0, 0, 0, 0.7), /* First shadow, darker */
-    4px 4px 8px rgba(0, 0, 0, 0.5), /* Second shadow, lighter */
-    6px 6px 12px rgba(0, 0, 0, 0.3); /* Third shadow, lightest */
+    2px 2px 4px rgba(0, 0, 0, 0.7), 
+    4px 4px 8px rgba(0, 0, 0, 0.5), 
+    6px 6px 12px rgba(0, 0, 0, 0.3); 
 }
 
 

@@ -1,15 +1,15 @@
 body {
   background-image: url('https://img.freepik.com/free-vector/snow-vector-pattern-background_8003-8.jpg');
-  background-size: cover; /* Ensure the background image covers the whole page */
-  background-attachment: fixed; /* Keep the background image fixed during scrolling */
-  background-position: center; /* Center the background image */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-size: cover; 
+  background-attachment: fixed; 
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
 
 .products-container {
   padding: 20px;
-  background-color: transparent; /* White background with 75% opacity */
-  min-height: calc(100vh - 60px); /* Adjust based on your navbar height */
+  background-color: transparent; 
+  min-height: calc(100vh - 60px); 
   font-size: large;
 }
 
@@ -30,24 +30,24 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    justify-content: space-between; /* Distribute space between items */
-    background-color: rgba(255, 255, 255, 0.5); /* White background with 50% opacity */
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .product-card img {
     width: 100%;
-    height: auto; /* Maintains aspect ratio */
-    max-height: 200px; /* Adjust to ensure the image is fully visible */
-    object-fit: contain; /* Ensures the entire image is visible */
+    height: auto; 
+    max-height: 200px; 
+    object-fit: contain; 
 }
 
 .product-card .card-body {
     padding: 15px;
     text-align: center;
-    flex: 1; /* Allows the card body to grow and fill the space */
+    flex: 1; 
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Space between title and button */
+    justify-content: space-between; 
 }
 
 .product-card .card-title {
@@ -55,7 +55,7 @@ body {
     font-weight: bold;
     color: #333;
     margin-bottom: 10px;
-    white-space: normal; /* Allow text to wrap */
+    white-space: normal; 
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -63,14 +63,14 @@ body {
 .product-card .card-text {
     font-size: 1rem;
     color: #666;
-    margin-bottom: 10px; /* Space between text and button */
+    margin-bottom: 10px; 
 }
 
 .product-card .btn-primary {
     background-color: #dc3545;
     border-color: #dc3545;
-    margin-top: auto; /* Pushes the button to the bottom */
-    align-self: center; /* Centers the button horizontally */
+    margin-top: auto; 
+    align-self: center; 
 }
 
 .product-card .btn-primary:hover {
@@ -85,23 +85,23 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.75); /* White background with 75% opacity */
-  padding: 20px; /* Add padding for better spacing */
-  box-sizing: border-box; /* Ensure padding is included in the width/height calculations */
+  background-color: rgba(255, 255, 255, 0.75); 
+  padding: 20px; 
+  box-sizing: border-box;
 }
 
 .popup {
-  position: relative; /* Ensure the popup is properly positioned */
-  background-color: #28a745; /* Green background color for the popup */
-  color: #ffffff; /* White text color */
+  position: relative; 
+  background-color: #28a745; 
+  color: #ffffff; 
   padding: 40px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
-  animation: popupAnimation 1s ease-in-out, beating 1.5s infinite; /* Add beating animation */
-  margin-bottom: 30px; /* Reduced space below the popup */
+  animation: popupAnimation 1s ease-in-out, beating 1.5s infinite; 
+  margin-bottom: 30px; 
 }
 
 .message {

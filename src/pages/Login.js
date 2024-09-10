@@ -13,7 +13,6 @@ function Login() {
   const handleLogin = (event) => {
     event.preventDefault();
 
-    // Basic validation
     if (username && password) {
       const user = { name: username };
 

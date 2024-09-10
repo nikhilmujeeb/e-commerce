@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import './Layout.css'; // Ensure this is the correct path
+import './Layout.css';
 
 const Layout = ({ children }) => {
   const location = useLocation();

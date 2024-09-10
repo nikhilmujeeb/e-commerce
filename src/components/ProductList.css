@@ -8,16 +8,16 @@
 }
 
 .products-heading {
-  color: beige; /* Set the desired color, e.g., orange */
-  font-size: 2.5rem; /* Adjust the size as needed */
-  margin-bottom: 20px; /* Space below the heading */
-  text-align: center; /* Center the heading text */
+  color: beige; 
+  font-size: 2.5rem; 
+  margin-bottom: 20px; 
+  text-align: center; 
   font-family: 'Times New Roman', Times, serif;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow for contrast */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 .products-container {
-  padding: 20px; /* Add padding to the container */
+  padding: 20px; 
 }
 
 .product-list {

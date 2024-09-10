@@ -12,7 +12,7 @@ import Cart from './components/Cart';
 import OrderPlaced from './pages/OrderPlaced';
 import CategoryPage from './pages/CategoryPage';
 import Contact from './pages/Contact'
-import './App.css'; // Ensure this import is correct
+import './App.css'; 
 
 function App() {
   return (
