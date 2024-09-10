@@ -11,6 +11,7 @@ import ProductDetails from './components/ProductDetails';
 import Cart from './components/Cart';
 import OrderPlaced from './pages/OrderPlaced';
 import CategoryPage from './pages/CategoryPage';
+import Contact from './pages/Contact'
 import './App.css'; // Ensure this import is correct
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
               <Route path="/cart" element={<Cart />} />
               <Route path="/order-placed" element={<OrderPlaced />} />
               <Route path="/products/category/:category" element={<CategoryPage />} />
+              <Route path="/Contact" element={<Contact />} />
             </Routes>
           </main>
           <Footer />
