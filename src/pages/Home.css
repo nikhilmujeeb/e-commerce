@@ -1,0 +1,122 @@
+
+.home-container {
+  font-family: 'Arial', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  font-size: large;
+  padding-top: 50px;
+  background-image: url('https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2017/10/website-pattern-1.jpg');
+}
+
+.hero-section {
+  background: url('https://images.pexels.com/photos/1087727/pexels-photo-1087727.jpeg?cs=srgb&dl=pexels-minan1398-1087727.jpg&fm=jpg') no-repeat center center/cover;
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 20px;
+  position: relative;
+  background-size: cover;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.button {
+  background-color: #ff0000;
+  border-color: #ff0000;
+  color: #fff; 
+  text-decoration: none; 
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+  background-color: #cc0000; 
+  border-color: #cc0000;
+  transform: scale(1.05);
+  text-decoration: none; 
+  color: #fff; 
+}
+
+.featured-products {
+  padding: 60px 20px;
+  background-color: transparent;
+  min-height: 400px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.featured-products-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.featured-products-header h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.featured-products .products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center; 
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}

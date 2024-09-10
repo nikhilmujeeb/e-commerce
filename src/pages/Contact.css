@@ -1,0 +1,75 @@
+.contact-page {
+    display: flex; /* Enable flexbox layout */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    background-color: rgba(249, 249, 249, 0.75); /* 75% opacity background */
+    padding: 40px; /* Padding for a spacious layout */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 800px; /* Max width for centered layout */
+    margin: 20px auto; /* Center the contact form horizontally */
+    height: 100vh; /* Full viewport height for vertical centering */
+  }
+  
+  .contact-page h2 {
+    color: #333;
+    font-size: 2rem; /* Prominent font size for the heading */
+    margin-bottom: 20px; /* Spacing below the heading */
+    text-align: center; /* Center the heading horizontally */
+  }
+  
+  .form-container {
+    width: 100%; /* Full width of the container */
+  }
+  
+  .contact-page .form-label {
+    color: #555;
+    font-weight: 500; /* Bold labels for readability */
+    margin-bottom: 5px; /* Spacing below labels */
+  }
+  
+  .contact-page input,
+  .contact-page textarea {
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Rounded input fields */
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    width: 100%; /* Full width input fields */
+    box-sizing: border-box; /* Prevents padding from affecting width */
+  }
+  
+  .contact-page .btn-primary {
+    background-color: #ff0000;
+    border-color: #cc0000;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .contact-page .btn-primary:hover {
+    background-color: #ff0000;
+    border-color: #cc0000;
+    cursor: pointer; /* Changes cursor to pointer on hover */
+  }
+  
+  .contact-page .btn-primary:focus {
+    outline: none; /* Removes default focus outline */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Adds a custom focus outline */
+  }
+  
+  .popup {
+    position: fixed; /* Fixes the position relative to the viewport */
+    top: 50%; /* Centers vertically */
+    left: 47%; /* Centers horizontally */
+    transform: translate(-50%, -50%); /* Adjusts the exact center alignment */
+    background-color: rgb(102, 255, 0); /* Dark background for contrast */
+    color: white; /* White text color */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(51, 255, 0, 0.3); /* Soft shadow */
+    z-index: 9999; /* Ensures it appears on top of other content */
+    text-align: center; /* Center text */
+  }
