@@ -7,6 +7,19 @@
   font-size: large;
 }
 
+.products-heading {
+  color: beige; /* Set the desired color, e.g., orange */
+  font-size: 2.5rem; /* Adjust the size as needed */
+  margin-bottom: 20px; /* Space below the heading */
+  text-align: center; /* Center the heading text */
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow for contrast */
+}
+
+.products-container {
+  padding: 20px; /* Add padding to the container */
+}
+
 .product-list {
   display: flex;
   flex-wrap: wrap;

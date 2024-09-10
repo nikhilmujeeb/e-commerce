@@ -19,12 +19,12 @@ const Products = () => {
         ? `https://fakestoreapi.com/products/category/${category}` 
         : 'https://fakestoreapi.com/products';
         
-      console.log('Fetching from URL:', url); // Log the URL being fetched
+      console.log('Fetching from URL:', url);
 
       try {
         const response = await fetch(url);
         const data = await response.json();
-        console.log('Fetched data:', data); // Log fetched data
+        console.log('Fetched data:', data);
         dispatch(setProducts(data));
       } catch (error) {
         console.error('Error fetching products:', error);
@@ -35,7 +35,7 @@ const Products = () => {
   }, [dispatch, category]);
 
   useEffect(() => {
-    console.log('Products from store:', products); // Log products from store
+    console.log('Products from store:', products);
   }, [products]);
 
   const filteredProducts = category 
