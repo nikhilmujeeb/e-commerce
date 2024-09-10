@@ -26,9 +26,16 @@
 .btn-primary {
   width: 100%;
   border-radius: 4px;
-  background-color: #ff0000; /* Or your preferred color */
+  background-color: #ff0000;
   color: white;
-  border: none;
+  border: #cc0000;
   padding: 10px;
   font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #cc0000; 
+  color: #ffcccb; 
+  transform: scale(1.05); 
 }
