@@ -22,9 +22,9 @@ function App() {
           <Navbar className="navbar" />
           <main>
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/Home" element={<Home />} />
               <Route path="/products" element={<Products />} />
-              <Route path="/login" element={<Login />} />
+              <Route path="/" element={<Login />} />
               <Route path="/product/:id" element={<ProductDetails />} />
               <Route path="/cart" element={<Cart />} />
               <Route path="/order-placed" element={<OrderPlaced />} />

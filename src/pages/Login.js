@@ -18,7 +18,7 @@ function Login() {
 
       dispatch(setUserName(user.name));
 
-      navigate('/'); 
+      navigate('/Home'); 
     } else {
       alert('Please enter both username and password.');
     }

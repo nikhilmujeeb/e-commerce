@@ -4,8 +4,8 @@ import './OrderPlaced.css';
 function OrderPlaced() {
   return (
     <div className="order-placed-container">
-      <div className="popup">
-        <h2>Order Placed</h2>
+      <div>
+        <h2 class="box">Order Placed</h2>
       </div>
       <div className="message">
         <p>Thank you for your purchase! Your order has been placed successfully.</p>

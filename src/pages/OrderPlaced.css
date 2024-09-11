@@ -1,33 +1,34 @@
 .order-placed-container {
-    position: relative;
-    min-height: 100vh;
+    min-height: 75vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
     background-color: #f8f9fa; 
     padding: 20px; 
     box-sizing: border-box; 
+    position: relative;
 }
 
-.popup {
-    position: absolute;
-    background-color: #28a745; 
+.box {
+    background-color: #00ff3c;
     color: #ffffff; 
-    padding: 40px;
+    padding: 15px 20px; 
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    animation: popupAnimation 1s ease-in-out, beating 1.5s infinite; 
-    margin-bottom: 30px;
-    left: 100%;
-    transform: translateX(-100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    margin: 0;
+    width: auto; 
+    max-width: 100%; 
+    animation: beating 1.5s infinite; 
 }
 
 .message {
     text-align: center;
     padding: 0 20px;
+    margin-top: 50px; 
 }
 
 .message p {

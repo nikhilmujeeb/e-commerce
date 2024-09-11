@@ -23,7 +23,7 @@ function NavbarComponent() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link as={Link} to="/">Home</Nav.Link>
+          <Nav.Link as={Link} to="/Home">Home</Nav.Link>
           <Nav.Link as={Link} to="/products">Products</Nav.Link>
           <NavDropdown title="Categories" id="basic-nav-dropdown">
             <NavDropdown.Item as={Link} to="/products?category=electronics">Electronics</NavDropdown.Item>
@@ -37,7 +37,7 @@ function NavbarComponent() {
               <Nav.Link onClick={handleLogout}>Logout</Nav.Link>
             </>
           ) : (
-            <Nav.Link as={Link} to="/login">Login</Nav.Link>
+            <Nav.Link as={Link} to="/">Login</Nav.Link>
           )}
           <Nav.Link as={Link} to="/cart">
             <i className="fa fa-shopping-cart" aria-label="cart"></i>
