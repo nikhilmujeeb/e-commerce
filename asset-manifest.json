@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/e-commerce/static/css/main.096e33cd.css",
-    "main.js": "/e-commerce/static/js/main.813d930b.js",
-    "static/media/fa-solid-900.ttf": "/e-commerce/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
-    "static/media/fa-brands-400.ttf": "/e-commerce/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
-    "static/media/fa-solid-900.woff2": "/e-commerce/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
-    "static/media/fa-brands-400.woff2": "/e-commerce/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
-    "static/media/fa-regular-400.ttf": "/e-commerce/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
-    "static/media/fa-regular-400.woff2": "/e-commerce/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
-    "static/media/fa-v4compatibility.ttf": "/e-commerce/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
-    "static/media/fa-v4compatibility.woff2": "/e-commerce/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
-    "index.html": "/e-commerce/index.html",
-    "main.096e33cd.css.map": "/e-commerce/static/css/main.096e33cd.css.map",
-    "main.813d930b.js.map": "/e-commerce/static/js/main.813d930b.js.map"
+    "main.css": "/Login/static/css/main.2c377abe.css",
+    "main.js": "/Login/static/js/main.813d930b.js",
+    "static/media/fa-solid-900.ttf": "/Login/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/Login/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/Login/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/Login/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/Login/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/Login/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Login/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Login/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/Login/index.html",
+    "main.2c377abe.css.map": "/Login/static/css/main.2c377abe.css.map",
+    "main.813d930b.js.map": "/Login/static/js/main.813d930b.js.map"
   },
   "entrypoints": [
-    "static/css/main.096e33cd.css",
+    "static/css/main.2c377abe.css",
     "static/js/main.813d930b.js"
   ]
 }
