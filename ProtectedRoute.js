@@ -14,13 +14,11 @@ import CategoryPage from './pages/CategoryPage';
 import Contact from './pages/Contact';
 import './App.css';
 
-// Utility hook to determine if the user is authenticated (example)
 const useAuth = () => {
-  const user = store.getState().user; // Replace with actual authentication logic
-  return user.name; // Assuming 'user.name' is set when logged in
+  const user = store.getState().user; 
+  return user.name; 
 };
 
-// Layout component to conditionally render Navbar and Footer
 const Layout = ({ children }) => {
   const location = useLocation();
   const isLoginPage = location.pathname === '/';
@@ -35,7 +33,7 @@ const Layout = ({ children }) => {
 };
 
 function App() {
-  const isAuthenticated = useAuth(); // Check if the user is authenticated
+  const isAuthenticated = useAuth(); 
 
   return (
     <Provider store={store}>
@@ -44,7 +42,6 @@ function App() {
           <Layout>
             <Routes>
               <Route path="/" element={<Login />} />
-              {/* Redirect to login if not authenticated */}
               <Route path="/home" element={isAuthenticated ? <Home /> : <Navigate to="/" />} />
               <Route path="/products" element={isAuthenticated ? <Products /> : <Navigate to="/" />} />
               <Route path="/product/:id" element={isAuthenticated ? <ProductDetails /> : <Navigate to="/" />} />

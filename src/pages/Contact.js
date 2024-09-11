@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import './Contact.css';
 
 const Contact = () => {
-  const [showPopup, setShowPopup] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    setShowPopup(true);
+    setIsSubmitted(true);
     setTimeout(() => {
-      setShowPopup(false);
+      setIsSubmitted(false);
     }, 2000);
   };
 
@@ -29,15 +29,11 @@ const Contact = () => {
             <label htmlFor="message" className="form-label">Message</label>
             <textarea className="form-control" id="message" rows="5" placeholder="Your message" required></textarea>
           </div>
-          <button type="submit" className="btn btn-primary">Send Message</button>
+          <button type="submit" className={`btn btn-primary ${isSubmitted ? 'submitted' : ''}`}>
+            {isSubmitted ? <span className="tick-icon">&#10004;</span> : 'Send Message'}
+          </button>
         </form>
       </div>
-
-      {showPopup && (
-        <div className="popup">
-          <p>Sent</p>
-        </div>
-      )}
     </div>
   );
 };
